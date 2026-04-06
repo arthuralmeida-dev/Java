@@ -1,4 +1,4 @@
-package javinha;
+package tabuada;
 import java.util.Scanner;
 public class javinhaclass {
 
