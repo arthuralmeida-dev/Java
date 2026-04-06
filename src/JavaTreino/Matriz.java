@@ -10,14 +10,14 @@ public class Matriz {
 		n = sc.nextInt();
 		
 		int[][] mat = new int[n][n];
-		
+
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				System.out.print("Elemento [" + i + "," + j + "]: ");
 				mat[i][j] = sc.nextInt();
 			}
 		}
-		
+		   
 		System.out.println("DIAGONAL PRINCIPAL = ");
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
