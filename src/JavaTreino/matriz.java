@@ -1,6 +1,6 @@
-package tabuada;
+package JavaTreino;
 import java.util.Scanner;
-public class javinhaclass {
+public class matriz {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
