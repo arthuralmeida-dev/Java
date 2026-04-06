@@ -1,12 +1,12 @@
 package JavaTreino;
 import java.util.Scanner;
-public class matriz {
+public class Matriz {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
 		int n,qntd = 0;
-		System.out.print("Qual a ordem da matriz? ");
+		System.out.print("Qual a ordem da Matriz? ");
 		n = sc.nextInt();
 		
 		int[][] mat = new int[n][n];
