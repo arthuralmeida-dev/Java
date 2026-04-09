@@ -3,15 +3,12 @@ import empresa.dados.Produto;
 public class AtividadeUdemy {
     public static void main (String[]args) {
 
-        Produto tabela = new Produto();
-        tabela.setNome("Arthur");
-        tabela.setPreco(200);
-        tabela.setQntd(10);
+        Produto produto1 = new Produto("Notebook", 2500.00,16);
+        Produto produto2 = new Produto("Smartphone", 1500.00,20);
 
-        System.out.println("Nome: "+ tabela.getNome());
-        System.out.println("Preço: " + tabela.getPreco());
-        System.out.println("Quantidade: " + tabela.getQntd());
-
+        produto1.exibirInformacoes();
+        System.out.println();
+        produto2.exibirInformacoes();
 
 
 

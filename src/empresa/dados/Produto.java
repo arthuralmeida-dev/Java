@@ -5,30 +5,15 @@ public class Produto {
    private double preco;
    private int qntd;
 
-   public Produto () {
-
+   public Produto (String nome, double preco, int qntd) {
+       this.nome = nome;
+       this.preco = preco;
+       this.qntd = qntd;
    }
 
-    public void setNome(String nome){
-       this.nome = nome;
+    public void exibirInformacoes() {
+        System.out.println("Nome: " + nome);
+        System.out.println("Preço: " + preco);
+        System.out.println("Quantidade em estoque: " + qntd);
     }
-    public void setPreco(double preco){
-        this.preco = preco;
-    }
-    public void setQntd(int qntd){
-       this.qntd = qntd;
-    }
-
-
-    public String getNome(){
-        return nome;
-    }
-    public double getPreco(){
-        return preco;
-    }
-    public int getQntd(){
-        return qntd;
-    }
-
-
 }
