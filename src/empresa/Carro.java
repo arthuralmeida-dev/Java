@@ -5,17 +5,17 @@ public class Carro {
     String modeloDoCarro;
     int anoDoCarro;
 
-    public Carro(){
+    public Carro() {
     marcaDoCarro = "Desconhecida";
     modeloDoCarro = "Desconhecido";
-    anoDoCarro = 0
+    anoDoCarro = 0;
     }
 
-    public Carro (String marcaDoCarro, String modeloDoCarro){
+    public Carro (String marcaDoCarro, String modeloDoCarro) {
         this.marcaDoCarro = marcaDoCarro;
         this.modeloDoCarro = modeloDoCarro;
     }
-    public Carro (String marcaDoCarro, String modeloDoCarro, int anoDoCarro){
+    public Carro (String marcaDoCarro, String modeloDoCarro, int anoDoCarro) {
         this.marcaDoCarro = marcaDoCarro;
         this.modeloDoCarro = modeloDoCarro;
         this.anoDoCarro = anoDoCarro;
@@ -27,6 +27,4 @@ public class Carro {
         System.out.println("Ano do carro: " + anoDoCarro);
         System.out.println();
     }
-
-
 }

@@ -2,9 +2,7 @@ package JavaTreino;
 import empresa.Carro;
 public class Aplicacao {
     public static void main(String[]args){
-
-
-
+        
         Carro c1 = new Carro();
         c1.exibirDetalhes();
 
@@ -13,7 +11,5 @@ public class Aplicacao {
 
         Carro c3 = new Carro("Ram", "SUV");
         c3.exibirDetalhes();
-
-
     }
 }
