@@ -11,9 +11,14 @@ public class Produto {
        this.qntd = qntd;
    }
 
-    public void exibirInformacoes() {
-        System.out.println("Nome: " + nome);
-        System.out.println("Preço: " + preco);
-        System.out.println("Quantidade em estoque: " + qntd);
+    //public void exibirInformacoes() {
+     //   System.out.println("Nome: " + nome);
+    //    System.out.println("Preço: " + preco);
+     //   System.out.println("Quantidade em estoque: " + qntd);
+    //}
+
+
+    public String exibirInformacoes(){
+       return "Nome: " + nome + ", Preço: " + preco + ",Quantidade: " + qntd;
     }
 }

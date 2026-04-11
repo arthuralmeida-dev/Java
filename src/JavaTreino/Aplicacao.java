@@ -2,7 +2,7 @@ package JavaTreino;
 import empresa.Carro;
 public class Aplicacao {
     public static void main(String[]args){
-        
+
         Carro c1 = new Carro();
         c1.exibirDetalhes();
 
