@@ -1,7 +1,4 @@
 package JavaTreino;
-
-import java.sql.SQLOutput;
-
 public class AplicacaoPessoa {
     public static void main(String[] args) {
 
